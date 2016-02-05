@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 /**
  * file.php does blah, blah, blah
  * 
@@ -13,8 +12,6 @@
  * @license http://www.apache.org/licenses/LICENSE-2.0
  * @todo possible option for 'added extras' to food options
  */
-=======
->>>>>>> origin/master
 $page = $_SERVER["PHP_SELF"];
 $form = <<<FORM
 <form action="form.php" method="post">
@@ -35,7 +32,6 @@ d like to purchase.</h2>
     <input name="submit" type="submit">
 </form>
 FORM;
-<<<<<<< HEAD
 /**
    * Function adds the $value of the items in the form and 
    * adds them together to get a $total, which is then echoed out
@@ -43,8 +39,6 @@ FORM;
    *
    * @todo none
    */
-=======
->>>>>>> origin/master
 $items = [];
 $total = 0;
 $subTotal = 0;
